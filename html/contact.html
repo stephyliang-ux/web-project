@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - Happy Paws Company</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <img
+        src="../images/banner1.png"
+        alt="Website Banner"
+        width="1000"
+        height="200"
+        style="width: 100%; height: auto"
+      />
+      <section class="banner-text-box">
+        <h1>Happy Paws Company</h1>
+      </section>
+    </header>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <main id="contact-main">
+      <form name="contactForm" action="#">
+        <table>
+          <tr>
+            <td><label for="name">Name</label></td>
+            <td><input name="name" type="text" id="name" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td>
+              <input
+                name="address"
+                type="text"
+                id="address"
+                placeholder="Enter your address"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="contact">Contact Number</label></td>
+            <td><input name="contact" type="text" id="contact" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input name="email" type="email" id="email" /></td>
+          </tr>
+
+          <tr>
+            <td><label>Preferred Contact:</label></td>
+            <td>
+              <input type="radio" id="r1" name="pref" value="email" checked />
+              <label for="r1">Email</label>
+              <input type="radio" id="r2" name="pref" value="phone" />
+              <label for="r2">Phone</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="dropdown">Reason For Contact</label></td>
+            <td>
+              <select id="dropdown">
+                <option disabled selected="selected">Please Select</option>
+                <option value="feedback">Provide Feedback</option>
+                <option value="info">Request Information</option>
+                <option value="order">Place an Order</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <label for="message"
+                >Please provide details or feedback below:</label
+              ><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                style="width: 100%; margin-top: 10px"
+                placeholder="Write your message here..."
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <hr />
+              <strong>Sign-up</strong>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="username">Username</label></td>
+            <td><input name="username" type="text" id="username" /></td>
+          </tr>
+          <tr>
+            <td><label for="pwd">Password</label></td>
+            <td><input name="pwd" type="password" id="pwd" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="confirm">Join Newsletter?</label></td>
+            <td><input type="checkbox" id="confirm" name="confirm" /></td>
+          </tr>
+        </table>
+        <br />
+        <button type="submit" class="myButton">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <table>
+        <tr>
+          <th>Contact Name</th>
+          <td>Stephy Liang</td>
+        </tr>
+        <tr>
+          <th>Email Address</th>
+          <td>contact@happypaws.com.au</td>
+        </tr>
+        <tr>
+          <th>Location</th>
+          <td>Brisbane, QLD, Australia</td>
+        </tr>
+        <tr>
+          <th>Phone Number</th>
+          <td>0400 000 000</td>
+        </tr>
+      </table>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/login" target="_blank">
+          <img
+            src="../images/icon1.jpg"
+            width="50"
+            height="50"
+            alt="Facebook"
+          />
+        </a>
+        <a href="https://twitter.com/login" target="_blank">
+          <img
+            src="../images/icon2.jpg"
+            width="50"
+            height="50"
+            alt="Instagram"
+          />
+        </a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+          <img src="../images/icon3.jpg" width="50" height="50" alt="Twitter" />
+        </a>
+      </div>
+
+      <span>&copy; Copyright Stephy Liang 2026</span>
+    </footer>
+  </body>
+</html>
